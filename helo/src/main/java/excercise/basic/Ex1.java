@@ -1,4 +1,4 @@
-package excercise;
+package excercise.basic;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ex1 {
 
 
-    public static float getTotalElementGreaterThanBefore(float[] numbers) {
+    public static float getTotalElementGreaterThanBefore(float[] numbers)   {
         float total = 0;
         for (int i = 0; i < numbers.length - 1; i++) {
             if (numbers[i] < numbers[i + 1]) {
